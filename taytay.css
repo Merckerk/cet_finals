@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -89,4 +92,121 @@ nav ul li a:hover{
         width: 100%;
         height: auto;
     }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-img{
+        width: auto;
+        height: 100%;
+    }
+}
+.sheeshplaces{
+    display: flex;
+    flex-direction: column;
+}
+.sheshcont{
+    background: linear-gradient(0deg, 
+    rgba(255, 255, 255, 0.2), 
+    rgba(255, 255, 255, 0.2)),
+    url(/images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.introtosheesh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.introtosheesh h2{
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+.introtosheesh p{
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+}
+.rowvert{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 55%;
+    background-color: rgb(22, 22, 22);
+    color: rgb(212, 212, 212);
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 5%;
+}
+.sheeshplaces h2{
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+.sheeshplaces p{
+    font-size: 25px;
+}
+.spacer{
+    padding: 15px;
+}
+.colimg1{
+    background: url(/images/taytaysheesh1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colimg2{
+    background: url(/images/taytaysheesh2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colimg2{
+    background: url(/images/taytaysheesh2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colimg3{
+    background: url(/images/jayepalog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(22, 22, 22);
+    color: rgb(212, 212, 212);
+}
+.footer-col{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-col p{
+    font-size: 12px;
+    padding-right: 20%;
+}
+.foot-spacer{
+    padding: 10px;
+}
+.bot-spacer{
+    padding-top: 10px;
+}
+.bottomtext{
+    padding-bottom: 3px;
 }
