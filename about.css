@@ -98,10 +98,7 @@ body{
     flex-direction: column;
 }
 
-/* .Team-images{
-    height: 350px;
-    width: 900px;
-} */
+
 #image{
     border-radius: 50%;
     width: 100px;
@@ -111,7 +108,9 @@ body{
     background-position: center center;
     background-size: cover;
 }
-
+#chesca{
+ 
+}
 footer{
     display: flex;
     flex-direction: column;
