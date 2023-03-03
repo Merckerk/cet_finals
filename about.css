@@ -89,7 +89,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(224,224,224);
+    background: #FCF5E5;
 }
 
 
@@ -107,9 +107,6 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
-#chesca{
- 
 }
 footer{
     display: flex;
