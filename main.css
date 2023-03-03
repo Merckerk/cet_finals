@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
+@font-face{
+    font-family: barabara;
+    src: url(/fonts/BARABARA-final.ttf);
+}
 .hero{
     width: 100%;
     height: 100vh;
@@ -25,7 +29,10 @@ nav{
     padding: 20px 8%;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+}
+.hero img{
+    width: 150px;
 }
 nav ul li{
     list-style: none;
@@ -50,6 +57,8 @@ nav ul li a:hover{
     text-align: center;
 }
 .content h1{
+    font-family: barabara;
+    letter-spacing: 10px;
     font-size: 160px;
     color: #fff;
     font-weight: 600;
@@ -122,7 +131,11 @@ nav ul li a:hover{
 }
 .secondp{
     line-height: 2rem;
-    margin-right: 10%;
+    margin-right: 20%;
+}
+.second hr{
+    width: 300px;
+    border-top: 3px  solid;
 }
 .cards{
     display: flex;
@@ -160,13 +173,13 @@ nav ul li a:hover{
 }
 .card h2{
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     transition: 0.5s;
 }
 .card p{
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.4rem;
 }
 .card a{
@@ -235,6 +248,21 @@ footer{
     color: rgb(212, 212, 212);
     padding: 50px;
 }
+.ftitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ftitle h1{
+    font-family: barabara;
+    letter-spacing: 3px;
+}
+.ftitle img{
+    width: 100px;
+}
+footer p{
+    font-size: 12px;
+}
 footer li{
     list-style: none;
 }
@@ -245,8 +273,5 @@ footer li{
     padding: 20px;
 }
 footer ul li{
-    font-size: 12px;
-}
-footer h5{
     font-size: 12px;
 }

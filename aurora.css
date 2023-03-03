@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+@font-face{
+    font-family: barabara;
+    src: url(fonts/BARABARA-final.ttf);
+}
 .hero{
     width: 100%;
     height: 100vh;
@@ -30,7 +34,10 @@ nav{
     padding: 20px 8%;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
+}
+.hero img{
+    width: 150px;
 }
 nav ul li{
     list-style: none;
@@ -60,6 +67,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .content h1{
+    font-family: barabara;
     font-size: 8.32vw;
     color: #fff;
     font-weight: 600;
@@ -141,22 +149,48 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     height: 60vh;
-    justify-content: space-evenly;
-    padding-left: 5%;
-    padding-right: 55%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
     background-color: rgb(22, 22, 22);
     color: rgb(212, 212, 212);
+}
+.rowvert hr{
+    width: 10%;
+    border-top: 3px solid;
+}
+.spacer50{
+    padding: 50px;
 }
 .col{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     width: 50%;
     padding: 5%;
 }
 .sheeshplaces h2{
+    font-family: barabara;
     font-size: 2.7vw;
     margin-bottom: 10px;
+    transition: 0.5s;
+}
+.sheeshplaces h2:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+.col h2{
+    font-family: barabara;
+    font-size: 2.7vw;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.col h2:hover{
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: transparent;
 }
 .sheeshplaces p{
     font-size: 1.3vw;
@@ -202,6 +236,21 @@ footer{
     color: rgb(212, 212, 212);
     padding: 50px;
 }
+.ftitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ftitle h1{
+    font-family: barabara;
+    letter-spacing: 3px;
+}
+.ftitle img{
+    width: 100px;
+}
+footer p{
+    font-size: 12px;
+}
 footer li{
     list-style: none;
 }
@@ -212,8 +261,5 @@ footer li{
     padding: 20px;
 }
 footer ul li{
-    font-size: 0.66vw;
-}
-footer h5{
-    font-size: 0.66vw;
+    font-size: 12px;
 }
