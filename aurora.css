@@ -10,13 +10,17 @@ html {
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),
+    url("/images/bahaynijillian.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
     padding: 0 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 nav{
     width: 100%;
@@ -36,14 +40,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 1vw;
     transition: 0.5s;
 }
 nav ul li a:hover{
     border: 2px solid #fff;
     color: #000;
     background-color: #fff;
-    padding: 10px;
+    padding: 0.52vw;
     border-radius: 20px;
     letter-spacing: 3px;
 }
@@ -56,7 +60,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .content h1{
-    font-size: 160px;
+    font-size: 8.32vw;
     color: #fff;
     font-weight: 600;
     transition: 0.5s;
@@ -65,9 +69,9 @@ nav ul li a:hover{
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.3vw;
     border: 2px solid #fff;
-    padding: 14px 70px;
+    padding: 0.73vw 3.6vw;
     border-radius: 50px;
     transition: 0.5s;
 }
@@ -76,9 +80,9 @@ nav ul li a:hover{
     display: inline-block;
     background-color: #fff;
     color: #000;
-    font-size: 24px;
+    font-size: 1.3vw;
     border: 2px solid #fff;
-    padding: 14px 70px;
+    padding: 0.8vw 4vw;
     border-radius: 50px;
 }
 .back-img{
@@ -122,11 +126,11 @@ nav ul li a:hover{
     padding-right: 20%;
 }
 .introtosheesh h2{
-    font-size: 52px;
+    font-size: 2.7vw;
     margin-bottom: 10px;
 }
 .introtosheesh p{
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 .row{
     display: flex;
@@ -151,11 +155,11 @@ nav ul li a:hover{
     padding: 5%;
 }
 .sheeshplaces h2{
-    font-size: 52px;
+    font-size: 2.7vw;
     margin-bottom: 10px;
 }
 .sheeshplaces p{
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 .spacer{
     padding: 15px;
@@ -208,8 +212,8 @@ footer li{
     padding: 20px;
 }
 footer ul li{
-    font-size: 12px;
+    font-size: 0.66vw;
 }
 footer h5{
-    font-size: 12px;
+    font-size: 0.66vw;
 }

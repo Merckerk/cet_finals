@@ -10,7 +10,12 @@ html {
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),
+    url("/images/bahaynijill.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -36,14 +41,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 1vw;
     transition: 0.5s;
 }
 nav ul li a:hover{
     border: 2px solid #fff;
     color: #000;
     background-color: #fff;
-    padding: 10px;
+    padding: 0.52vw;
     border-radius: 20px;
     letter-spacing: 3px;
 }
@@ -56,7 +61,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .content h1{
-    font-size: 160px;
+    font-size: 8.32vw;
     color: #fff;
     font-weight: 600;
     transition: 0.5s;
@@ -65,9 +70,9 @@ nav ul li a:hover{
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.3vw;
     border: 2px solid #fff;
-    padding: 14px 70px;
+    padding: 0.73vw 3.6vw;
     border-radius: 50px;
     transition: 0.5s;
 }
@@ -76,9 +81,9 @@ nav ul li a:hover{
     display: inline-block;
     background-color: #fff;
     color: #000;
-    font-size: 24px;
+    font-size: 1.3vw;
     border: 2px solid #fff;
-    padding: 14px 70px;
+    padding: 0.8vw 4vw;
     border-radius: 50px;
 }
 .back-img{
@@ -105,9 +110,9 @@ nav ul li a:hover{
 }
 .sheshcont{
     background: linear-gradient(0deg, 
-    rgba(255, 255, 255, 0.95), 
-    rgba(255, 255, 255, 0.95)),
-    url(/images/dynamic.jpg);
+    rgba(255, 255, 255, 0.85), 
+    rgba(255, 255, 255, 0.85)),
+    url(/images/mgadamo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,11 +128,11 @@ nav ul li a:hover{
 }
 .introtosheesh h2{
     /* 52px */
-    font-size: 52px;
+    font-size: 2.7vw;
     margin-bottom: 10px;
 }
 .introtosheesh p{
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 .row{
     display: flex;
@@ -152,105 +157,96 @@ nav ul li a:hover{
     padding: 5%;
 }
 .sheeshplaces h2{
-    font-size: 52px;
+    font-size: 2.7vw;
     margin-bottom: 10px;
 }
 .sheeshplaces p{
-    font-size: 25px;
+    font-size: 1.3vw;
 }
 .spacer{
     padding: 15px;
 }
 .colimg1{
-    background: url(/images/Parola-Napindan-7.jpg);
+    background: url(/images/stdomcath.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .colimg2{
-    background: url(/images/stann2.jpg);
+    background: url(/images/SeaofClouds1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg3{
-    background: url(/images/Libingan-ng-mga-Bayani.jpg);
+    background: url(/images/balete-pass2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg4{
-    background: url(/images/Veterans-Museum.jpg);
+    background: url(/images/capisaan.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg5{
-    background: url(/images/mercado-del-lago-taguig.jpg);
+    background: url(/images/imugan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg6{
-    background: url(/images/VGC-FLOAT-IN-CINEMA-18.jpg);
+    background: url(/images/palali.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg7{
-    background: url(/images/Manila-American-Cemetary-02.jpg);
+    background: url(/images/magat.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg8{
-    background: url(/images/bgc-buildings-estate.jpg);
+    background: url(/images/lintu.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg9{
-    background: url(/images/Market2x.jpg);
+    background: url(/images/sanvicente.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg10{
-    background: url(/images/sm-aura-premier.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.colimg11{
-    background: url(/images/mind-museum.jpg);
+    background: url(/images/gulon.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 footer{
     display: flex;
-    flex-direction: row;
-    background-color: rgb(22, 22, 22);
-    color: rgb(212, 212, 212);
-}
-.footer-col{
-    padding: 20px;
-    width: 50%;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    color: rgb(212, 212, 212);
+    padding: 50px;
 }
-.footer-col p{
-    font-size: 12px;
-    padding-right: 20%;
+footer li{
+    list-style: none;
 }
-.foot-spacer{
-    padding: 10px;
+.spacer5{
+    padding: 5px;
 }
-.bot-spacer{
-    padding-top: 10px;
+.spacer20{
+    padding: 20px;
 }
-.bottomtext{
-    padding-bottom: 3px;
+footer ul li{
+    font-size: 0.66vw;
+}
+footer h5{
+    font-size: 0.66vw;
 }
