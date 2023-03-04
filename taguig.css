@@ -15,7 +15,7 @@ html {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),
-    url("/images/taguigprobinsyudad.jpg");
+    url("images/taguigprobinsyudad.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +118,7 @@ nav ul li a:hover{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.95), 
     rgba(255, 255, 255, 0.95)),
-    url(/images/dynamic.jpg);
+    url(images/dynamic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,68 +199,68 @@ nav ul li a:hover{
     padding: 15px;
 }
 .colimg1{
-    background: url(/images/Parola-Napindan-7.jpg);
+    background: url(images/Parola-Napindan-7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .colimg2{
-    background: url(/images/stann2.jpg);
+    background: url(images/stann2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg3{
-    background: url(/images/Libingan-ng-mga-Bayani.jpg);
+    background: url(images/Libingan-ng-mga-Bayani.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg4{
-    background: url(/images/Veterans-Museum.jpg);
+    background: url(images/Veterans-Museum.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg5{
-    background: url(/images/mercado-del-lago-taguig.jpg);
+    background: url(images/mercado-del-lago-taguig.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg6{
-    background: url(/images/VGC-FLOAT-IN-CINEMA-18.jpg);
+    background: url(images/VGC-FLOAT-IN-CINEMA-18.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg7{
-    background: url(/images/Manila-American-Cemetary-02.jpg);
+    background: url(images/Manila-American-Cemetary-02.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg8{
-    background: url(/images/bgc-buildings-estate.jpg);
+    background: url(images/bgc-buildings-estate.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg9{
-    background: url(/images/Market2x.jpg);
+    background: url(images/Market2x.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg10{
-    background: url(/images/sm-aura-premier.jpg);
+    background: url(images/sm-aura-premier.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg11{
-    background: url(/images/mind-museum.jpg);
+    background: url(images/mind-museum.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
