@@ -228,6 +228,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 footer{
     display: flex;
     flex-direction: column;
