@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    background-image: url(/images/mnlsun.jpg), linear-gradient(rgba(12,3,51,0.3),rgba(0,0,0,0.8));
+    background-image: url(images/mnlsun.jpg), linear-gradient(rgba(12,3,51,0.3),rgba(0,0,0,0.8));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ html {
 }
 @font-face{
     font-family: barabara;
-    src: url(/fonts/BARABARA-final.ttf);
+    src: url(fonts/BARABARA-final.ttf);
 }
 nav{
     width: 100%;

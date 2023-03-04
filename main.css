@@ -9,7 +9,7 @@ html {
 }
 @font-face{
     font-family: barabara;
-    src: url(/fonts/BARABARA-final.ttf);
+    src: url(fonts/BARABARA-final.ttf);
 }
 .hero{
     width: 100%;
@@ -95,7 +95,7 @@ nav ul li a:hover{
 .second{
     width: 100%;
     min-height: 100vh;
-    background-image: url(/images/mnlsun.jpg), linear-gradient(rgba(12,3,51,0.3),rgba(0,0,0,0.8));
+    background-image: url(images/mnlsun.jpg), linear-gradient(rgba(12,3,51,0.3),rgba(0,0,0,0.8));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,25 +208,25 @@ nav ul li a:hover{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.6), 
     rgba(255, 255, 255, 0.6)),
-    url(/images/mun_hall.jpg);
+    url(images/mun_hall.jpg);
 }
 .card2{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.6), 
     rgba(255, 255, 255, 0.6)),
-    url(/images/bgc-buildings-estate.jpg);
+    url(images/bgc-buildings-estate.jpg);
 }
 .card3{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.6), 
     rgba(255, 255, 255, 0.6)),
-    url(/images/bahaynixypher.png);
+    url(images/bahaynixypher.png);
 }
 .card4{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.6), 
     rgba(255, 255, 255, 0.6)),
-    url(/images/bahaynijill.jpg);
+    url(images/bahaynijill.jpg);
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{

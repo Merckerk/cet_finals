@@ -15,7 +15,7 @@ html {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),
-    url("/images/bahaynijill.jpg");
+    url("images/bahaynijill.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@ nav ul li a:hover{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.85), 
     rgba(255, 255, 255, 0.85)),
-    url(/images/mgadamo.jpg);
+    url(images/mgadamo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,62 +200,62 @@ nav ul li a:hover{
     padding: 15px;
 }
 .colimg1{
-    background: url(/images/stdomcath.jpg);
+    background: url(images/stdomcath.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .colimg2{
-    background: url(/images/SeaofClouds1.jpg);
+    background: url(images/SeaofClouds1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg3{
-    background: url(/images/balete-pass2.webp);
+    background: url(images/balete-pass2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg4{
-    background: url(/images/capisaan.webp);
+    background: url(images/capisaan.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg5{
-    background: url(/images/imugan.jpg);
+    background: url(images/imugan.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg6{
-    background: url(/images/palali.webp);
+    background: url(images/palali.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg7{
-    background: url(/images/magat.webp);
+    background: url(images/magat.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg8{
-    background: url(/images/lintu.webp);
+    background: url(images/lintu.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg9{
-    background: url(/images/sanvicente.jpg);
+    background: url(images/sanvicente.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg10{
-    background: url(/images/gulon.webp);
+    background: url(images/gulon.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
