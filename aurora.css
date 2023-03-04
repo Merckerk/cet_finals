@@ -15,7 +15,7 @@ html {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),
-    url("/images/bahaynijillian.png");
+    url("images/bahaynijillian.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@ nav ul li a:hover{
     background: linear-gradient(0deg, 
     rgba(255, 255, 255, 0.8), 
     rgba(255, 255, 255, 0.8)),
-    url(/images/aurorabg.jpg);
+    url(images/aurorabg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,31 +199,31 @@ nav ul li a:hover{
     padding: 15px;
 }
 .colimg1{
-    background: url(/images/sabang.png);
+    background: url(images/sabang.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg2{
-    background: url(/images/Ermita-Hill-in-Baler-Aurora.jpg);
+    background: url(images/Ermita-Hill-in-Baler-Aurora.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg3{
-    background: url(/images/motherfalls.png);
+    background: url(images/motherfalls.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg4{
-    background: url(/images/museodebaler.png);
+    background: url(images/museodebaler.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .colimg5{
-    background: url(/images/discalarin.png);
+    background: url(images/discalarin.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
